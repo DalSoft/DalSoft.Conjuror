@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26929.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DalSoft.Conjuror", "DalSoft.Conjuror\DalSoft.Conjuror.csproj", "{1223F656-19CB-4598-BB74-7DF23C3D9263}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DalSoft.Conjuror.Integration.Tests", "DalSoft.Conjuror.Integration.Tests\DalSoft.Conjuror.Integration.Tests.csproj", "{38A9F0DE-BB30-4F33-AED6-48D9834DC0F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1223F656-19CB-4598-BB74-7DF23C3D9263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1223F656-19CB-4598-BB74-7DF23C3D9263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1223F656-19CB-4598-BB74-7DF23C3D9263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1223F656-19CB-4598-BB74-7DF23C3D9263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A9F0DE-BB30-4F33-AED6-48D9834DC0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A9F0DE-BB30-4F33-AED6-48D9834DC0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A9F0DE-BB30-4F33-AED6-48D9834DC0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A9F0DE-BB30-4F33-AED6-48D9834DC0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {581C131E-4E92-4B3E-B257-D0967EA83222}
+	EndGlobalSection
+EndGlobal

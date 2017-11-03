@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>DalSoft.Conjuror</AssemblyName>
+    <IsPackable>true</IsPackable>
+    <PackageId>DalSoft.Conjuror</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageReleaseNotes>WIP</PackageReleaseNotes>
+    <Authors>DalSoft</Authors>
+    <Description></Description>
+    <PackageTags></PackageTags>
+    <Copyright></Copyright>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/DalSoft/DalSoft.RestClient/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/DalSoft/DalSoft.RestClient</PackageProjectUrl>
+    <PackageIconUrl>http://dalsoft.co.uk/images/icon.png</PackageIconUrl>
+
+
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
